@@ -43,7 +43,7 @@ const Banner = () => {
         </h1>
         <div className='space-x-4'>
           <button className='px-6 py-2 rounded bg-white text-black font-semibold hover:bg-gray-300 transition duration-300 cursor-pointer'>Play</button>
-          <button className='px-6 py-2 rounded bg-gray-700 text-white font-semibold hover:bg-gray-600 transition duration-300 cursor-pointer'>My List</button>
+          <button className='px-6 py-2 rounded bg-red-700 text-white font-semibold hover:bg-red-600 transition duration-300 cursor-pointer'>My List</button>
         </div>
         <h1 className='max-w-md font-bold text-sm md:text-base text-gray-200'>
           {truncate(movie?.overview, 150)}

@@ -8,8 +8,8 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
   return (
-    <div className='w-full'>
-      <footer className="w-[92%] lg:w-[80%] mx-auto text-white/70 text-sm px-[10px] py-[30px]">
+    <div className='w-full mt-4'>
+      <footer className="w-[92%] lg:w-[80%] mx-auto text-white/70 text-sm px-[10px] py-[35px]">
 
         <div className="flex items-center gap-6 pt-10 pb-4">
           <InstagramIcon/>
@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="#">Questions? Contact us.</a>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:gap-y-6 gap-x-4 pb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-y-6 gap-x-4 pb-10">
           <div>
             <ul className="space-y-2">
               <li><a href="#">FAQ</a></li>
@@ -78,7 +78,7 @@ const Footer = () => {
 
         <div className="w-full">
           <button 
-            className="w-full flex justify-center items-center gap-2 bg-gradient-to-r from-red-600 via-red-700 to-red-700  py-2 px-6 rounded-full text-white text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-red-500 hover:to-red-700 cursor-pointer">
+            className="md:hidden w-full flex justify-center items-center gap-2 bg-gradient-to-r from-red-600 via-red-700 to-red-700  py-2 px-6 rounded-full text-white text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-red-500 hover:to-red-700 cursor-pointer">
             <span>Get Started</span>
           </button>
         </div>
