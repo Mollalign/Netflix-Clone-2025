@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Mollalign.github.io/Netflix-Clone-2025",
   "name": "netflix-clone-2025",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -33,7 +36,9 @@
     "eslint": "^9.22.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "github-pages": "^3.0.2",
     "globals": "^16.0.0",
+    "source-map-explorer": "^2.5.3",
     "vite": "^6.3.1",
     "webpack-bundle-analyzer": "^4.10.2"
   }
