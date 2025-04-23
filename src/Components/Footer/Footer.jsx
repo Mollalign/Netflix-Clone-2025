@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="#">Questions? Contact us.</a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-y-6 gap-x-4 pb-10">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:gap-y-6 gap-x-4 pb-10">
           <div>
             <ul className="space-y-2">
               <li><a href="#">FAQ</a></li>
@@ -75,6 +75,14 @@ const Footer = () => {
         <div className="pb-10">
           <p>Netflix Ethiopia</p>
         </div>
+
+        <div className="w-full">
+          <button 
+            className="w-full flex justify-center items-center gap-2 bg-gradient-to-r from-red-600 via-red-700 to-red-700  py-2 px-6 rounded-full text-white text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:from-red-500 hover:to-red-700 cursor-pointer">
+            <span>Get Started</span>
+          </button>
+        </div>
+
       </footer>
 
     </div>

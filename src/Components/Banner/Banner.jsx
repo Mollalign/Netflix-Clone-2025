@@ -30,7 +30,7 @@ const Banner = () => {
     <div
       className='relative h-[75vh] w-full bg-cover bg-center bg-no-repeat text-white'
       style={{
-        backgroundImage: `url('https://image.tmdb.org/t/p/original${movie?.backdrop_path}')`
+        backgroundImage: `url('https://image.tmdb.org/t/p/w1280${movie?.backdrop_path}')`
       }}
     >
       {/* Gradient overlay */}
